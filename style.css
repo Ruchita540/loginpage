@@ -1,0 +1,79 @@
+body{
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+img{
+    height: 80px;
+    width: 280px;
+    padding-top: 40px;
+}
+.name{
+    width: 250px;
+    height: 30px;
+    background-color: #fafafa;
+
+}
+.login-button{
+    width: 250px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+.seperator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+}
+.seperator .line{
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+    color: gray;
+}
+.other{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fb-login-page{
+    margin: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #385185;
+    background: transparent;
+    font-weight: 600;
+}
+.fb-icon{
+    color: #385185;
+    font-size: 1rem;
+    padding-right: 1px;
+}
+.forgot-password{
+    font-size: 18px;
+    color: #003569;
+}
+.box{
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    flex-grow: 1;
+    position: relative;
+    left: 450px;
+}
+.signup{
+    color: #3897f0;
+    font-weight: 600;
+}
